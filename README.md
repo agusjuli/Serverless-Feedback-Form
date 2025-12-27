@@ -74,7 +74,7 @@ GitHub Push → GitHub Actions → S3 + CloudFront Invalidate
 - Block all public access
 
 ### 2️⃣ DynamoDB Table
-- Table name: `Feedback-Kobina`
+- Table name: `Feedback-Table`
 - Partition key: `feedback_id` (String)
 
 ### 3️⃣ SES Setup
