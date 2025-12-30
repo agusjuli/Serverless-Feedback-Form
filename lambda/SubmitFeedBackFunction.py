@@ -6,9 +6,9 @@ from datetime import datetime
 import uuid  # To generate unique feedback IDs
 
 # Configurable variables with defaults from environment variables
-TABLE_NAME = os.environ.get('TABLE_NAME', 'Feedback-Kobina')  # DynamoDB Table name for storing feedback
-BUCKET_NAME = os.environ.get('BUCKET_NAME', 'feedback-images-kobbyjust')  # S3 bucket name for storing feedback attachments
-ADMIN_EMAIL = os.environ.get('ADMIN_EMAIL', 'sagarinokoeaws1@gmail.com')  # Admin email to receive notifications
+TABLE_NAME = os.environ.get('TABLE_NAME', 'feedback-agusjuli')  # DynamoDB Table name for storing feedback
+BUCKET_NAME = os.environ.get('BUCKET_NAME', 'feedback-pdf-agusjuli')  # S3 bucket name for storing feedback attachments
+ADMIN_EMAIL = os.environ.get('ADMIN_EMAIL', 'agusjuli@yahoo.com.sg')  # Admin email to receive notifications
 REGION = os.environ.get('REGION', 'us-east-1')  # AWS region for resources
 
 # Initialize AWS clients
